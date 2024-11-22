@@ -1,4 +1,11 @@
+# Mengatur header untuk semua file
 * 
   Access-Control-Allow-Origin: *
   X-Frame-Options: ALLOWALL
   Cache-Control: public, max-age=2592000
+
+# Mengatur CORS untuk semua file SVG
+*.svg
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, POST, OPTIONS
+  Access-Control-Allow-Headers: Content-Type, Authorization
